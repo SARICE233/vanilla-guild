@@ -2,7 +2,7 @@ name: VanillaFamily
 version: "0.1.0-alpha"
 main: com.vanillafamily.VanillaFamily
 api-version: "1.21"
-author: NiuMo
+author: SARICE233
 description: 香草家族 - 公会/家族系统
 softdepend: [Vault]
 
