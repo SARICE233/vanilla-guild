@@ -1,0 +1,52 @@
+name: VanillaFamily
+version: "1.0.0"
+main: com.vanillafamily.VanillaFamily
+api-version: "1.21"
+author: NiuMo
+description: 香草家族 - 公会/家族系统
+softdepend: [Vault]
+
+commands:
+  guild:
+    description: 公会主命令
+    usage: /guild help
+    aliases: [gh, g]
+  guildadmin:
+    description: 公会管理命令
+    usage: /guildadmin help
+    permission: vanilla.admin
+
+permissions:
+  vanilla.guild.create:
+    description: 创建公会
+    default: true
+  vanilla.guild.disband:
+    description: 解散公会
+    default: true
+  vanilla.guild.invite:
+    description: 邀请玩家
+    default: true
+  vanilla.guild.kick:
+    description: 踢出成员
+    default: true
+  vanilla.guild.promote:
+    description: 提升成员职位
+    default: true
+  vanilla.guild.demote:
+    description: 降低成员职位
+    default: true
+  vanilla.guild.chat:
+    description: 公会聊天
+    default: true
+  vanilla.guild.upgrade:
+    description: 升级公会
+    default: true
+  vanilla.guild.bank:
+    description: 打开公会仓库
+    default: true
+  vanilla.guild.contribute:
+    description: 贡献给公会
+    default: true
+  vanilla.admin:
+    description: 公会管理权限
+    default: op
