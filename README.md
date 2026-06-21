@@ -1,5 +1,7 @@
 # VanillaFamily
 
+> **Status: Early Development** -- This project is in alpha stage. Features may be incomplete and bugs are expected.
+
 Paper 1.21+ guild/family plugin for Minecraft servers.
 
 ## Features

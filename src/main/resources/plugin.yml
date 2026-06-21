@@ -1,5 +1,5 @@
 name: VanillaFamily
-version: "1.0.0"
+version: "0.1.0-alpha"
 main: com.vanillafamily.VanillaFamily
 api-version: "1.21"
 author: NiuMo
